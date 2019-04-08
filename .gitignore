@@ -58,3 +58,12 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+#Sample Dir
+sample/build/
+sample/*.iml
+
+#Libraries
+wavepopuplib/build/
+wavepopuplib/*.iml
+

@@ -1,0 +1,66 @@
+ext {
+
+    targetSDKVersion = 28
+    minSDKVersion = 16
+    appVersionCode = 1
+    appVersionName = '1.0'
+
+    dagger2Version = '2.8'
+    retrofitVersion = '2.1.0'
+    rxAndroidVersion = '1.1.0'
+    butterkniefVersion = '8.6.0'
+    supportLibraryVersion = '28.0.0'
+    constraintLayout = '1.1.3'
+    shimmerVersion = '1.3'
+
+    dependencies = [
+
+            // Android framework
+            appCompat: "com.android.support:appcompat-v7:$supportLibraryVersion",
+            support: "com.android.support:support-v4:$supportLibraryVersion",
+            designSupport: "com.android.support:design:$supportLibraryVersion",
+            cardView: "com.android.support:cardview-v7:$supportLibraryVersion",
+            recyclerView: "com.android.support:recyclerview-v7:$supportLibraryVersion",
+            constraintLayout: "com.android.support.constraint:constraint-layout:$constraintLayout",
+            animation: "com.android.support:support-dynamic-animation:$supportLibraryVersion",
+
+            // RX and Retrofit
+            rxAndroid: "io.reactivex:rxandroid:$rxAndroidVersion",
+            retrofit: "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            retrofitConverterGson: "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+            retrofitAdapterRxJava: "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion",
+            okHttpLoger: "com.squareup.okhttp3:logging-interceptor:3.3.0",
+
+            // Google Maps
+            googleMap: "com.google.android.gms:play-services-maps:15.0.1",
+            location: "com.google.android.gms:play-services-location:16.0.0",
+
+
+            // Dependency injection and butterknife
+            injection: 'javax.inject:javax.inject:1',
+            dagger2: "com.google.dagger:dagger:$dagger2Version",
+            injectionProvided: 'javax.annotation:jsr250-api:1.0',
+            injectionAnnotationProcessor: "com.google.dagger:dagger-compiler:$dagger2Version",
+            butterknief: "com.jakewharton:butterknife:$butterkniefVersion",
+            butterkniefAnnotations: "com.jakewharton:butterknife-compiler:$butterkniefVersion",
+
+            // DB
+            realM: 'io.realm:android-adapters:1.4.0',
+
+            permissions: 'com.karumi:dexter:5.0.0',
+
+            // Utils
+            picasso: 'com.squareup.picasso:picasso:2.5.2',
+            circleImageView: 'de.hdodenhof:circleimageview:1.3.0',
+            pnikosisMaterialishProgress: 'com.pnikosis:materialish-progress:1.5',
+
+            networking: 'com.amitshekhar.android:rx2-android-networking:1.0.0',
+            glide: 'com.github.bumptech.glide:glide:3.7.0',
+            gson: 'com.google.code.gson:gson:2.8.0',
+
+            // Tests
+            jUnit: 'junit:junit:4.12',
+            mockito: 'org.mockito:mockito-core:1.10.19',
+            robolectric: 'org.robolectric:robolectric:3.0',
+    ]
+}
