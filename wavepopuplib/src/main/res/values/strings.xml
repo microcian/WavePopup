@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">WavePopupLib</string>
+
+    <string name="btn_delete">Delete</string>
+    <string name="desc_imageView" translatable="false">imageView</string>
 </resources>
